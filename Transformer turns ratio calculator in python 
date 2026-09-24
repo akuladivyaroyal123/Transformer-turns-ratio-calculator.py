@@ -1,0 +1,8 @@
+# Transformer Turns Ratio Calculator
+
+Np = float(input("Enter Primary Turns (Np): "))
+Ns = float(input("Enter Secondary Turns (Ns): "))
+
+turns_ratio = Ns / Np
+
+print("Transformer Turns Ratio =", turns_ratio)
